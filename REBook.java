@@ -23,4 +23,8 @@ public class REBook implements EBook {
         isBookDisplayed = true;
         System.out.println(title + " - " + author);
     }
+
+    public String getTitle() {
+        return title;
+    }
 }
