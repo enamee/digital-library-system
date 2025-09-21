@@ -27,4 +27,8 @@ public class REBook implements EBook {
     public double getSize() {
         return size;
     }
+
+    public String getTitle() {
+        return title;
+    }
 }

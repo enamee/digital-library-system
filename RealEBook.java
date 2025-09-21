@@ -20,4 +20,8 @@ public class RealEBook implements EBook {
     public double getSize() {
         return size;
     }
+
+    public String getTitle() {
+        return title;
+    }
 }
