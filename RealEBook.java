@@ -16,4 +16,8 @@ public class RealEBook implements EBook {
     public void display() {
         System.out.println(title + " - " + author);
     }
+
+    public double getSize() {
+        return size;
+    }
 }
